@@ -1,0 +1,24 @@
+form{
+    text-align: start;
+    padding: 20px;
+}
+label{
+    font-weight: 700;
+    margin-left: 5px;
+}
+select{
+    width:100px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+option{
+    background-color: #0F2027;
+}
+
+input{
+    background-color: transparent;
+    width:100px;
+    height: 40px;
+    color: white;
+}

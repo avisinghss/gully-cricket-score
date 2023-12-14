@@ -1,0 +1,51 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.left-img {
+    width: 400px;
+    height: 150px;
+    background-color: skyblue;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    position: relative;
+}
+
+.right-img {
+    width: 400px;
+    height: 150px;
+    background-color: lightgreen;
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+    position: absolute;
+}
+
+.mtc-title {
+    margin-top: 66px;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    z-index: 11111;
+}
+
+.btn-card {
+    display: flex;
+    position: absolute;
+    margin: 5px;
+}
+
+.btn-card button {
+    bottom: 0;
+    width: 90px;
+    height: 30px;
+    position: relative;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.351);
+    overflow: hidden;
+    margin: 8px;
+    margin-top: 104px;
+}
